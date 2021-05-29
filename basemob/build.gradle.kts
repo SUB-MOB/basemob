@@ -15,8 +15,8 @@ android {
         compileSdk = compileSdkVersion
 
         defaultConfig {
-            minSdk = minSdkVersion
-            targetSdk = targetSdkVersion
+            minSdk = ProjectSettings.minSdkVersion
+            targetSdk = ProjectSettings.targetSdkVersion
         }
 
         buildFeatures {
